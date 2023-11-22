@@ -1,0 +1,24 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: var(--spacing-xs);
+	cursor: pointer;
+	padding: var(--spacing-xs);
+}
+
+.text {
+	border: none;
+}
+
+.outlined {
+	background-color: var(--paper);
+	border: 1px solid var(--border-gray);
+	border-radius: var(--rounding-sm);
+}
+
+.left {
+	display: flex;
+	align-items: center;
+	gap: var(--spacing-xs);
+}

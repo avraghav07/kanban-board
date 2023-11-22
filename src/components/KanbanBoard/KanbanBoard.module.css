@@ -1,0 +1,28 @@
+.header {
+	padding: var(--spacing-md) var(--spacing-lg);
+	background-color: var(--paper);
+	box-shadow: var(--shadow-sm);
+	border: 1px solid var(--border-gray);
+}
+
+.ticketGroups {
+	padding: var(--spacing-lg) var(--spacing-xl);
+	display: flex;
+	gap: var(--spacing-lg);
+	overflow: auto;
+}
+
+@media only screen and (max-width: 850px) {
+	.ticketGroups {
+		padding: var(--spacing-lg);
+		flex-wrap: wrap;
+	}
+}
+
+.selectContainer {
+	color: var(--text-gray);
+	display: flex;
+	gap: var(--spacing-lg);
+	justify-content: space-between;
+	align-items: center;
+}

@@ -1,0 +1,22 @@
+.container {
+	display: flex;
+	gap: var(--spacing-xs);
+	align-items: center;
+	border: 1px solid var(--border-gray);
+	padding: var(--spacing-xs);
+	border-radius: var(--rounding-sm);
+	color: var(--text-gray);
+}
+
+.dot {
+	height: 12px;
+	width: 12px;
+	background-color: var(--text-gray);
+	border-radius: 50%;
+	flex-shrink: 0;
+}
+
+.text {
+	font-size: var(--text-sm);
+	white-space: nowrap;
+}

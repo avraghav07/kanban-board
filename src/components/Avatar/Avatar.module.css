@@ -1,0 +1,36 @@
+.container {
+	position: relative;
+	width: 32px;
+	height: 32px;
+	cursor: default;
+	user-select: none;
+}
+
+.initials {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	color: var(--text-white);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: var(--text-sm);
+}
+
+.status {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	border: 1px solid var(--text-white);
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.online {
+	background-color: var(--green);
+}
+
+.offline {
+	background-color: var(--red);
+}
